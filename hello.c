@@ -34,3 +34,14 @@ int NOT(int e) {
 int NOT(int f) {
     return 1 - f;
 }
+int OR(int a, int B, int c, int d, int e, int f) {
+return a-(a*B)+B;
+}
+int AND(int a, int B, int c, int d, int e, int f) {
+        return a*B;
+    }
+int OR(int a, int B) {
+return a-(a*B)+B;
+}
+
+// prima ogni variabile passa per la porta not e poi per la porta and nel mentre passano anche per la porta or poi si ricongiungono i risultati per la porta or alla fine
